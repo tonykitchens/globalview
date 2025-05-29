@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependencies...
+      # Add install commands here if needed
+  build:
+    commands:
+      - echo Build started on `date`
+      - ls -la
+      # Add your build commands here
+artifacts:
+  files:
+    - '**/*'
